@@ -16,7 +16,7 @@ body{
 .navbar{
     background-color:white ;
     color: black;
-    padding: 30px 100px;
+    padding: 50px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,8 +52,59 @@ body{
     margin-top: 50px;
     text-align: center;
 }
-
-
+.hme{
+    display: flex;
+    padding-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.hmeOne{
+padding-top: 200px;
+text-align: center;
+margin-right: 20px;
+}
+.hmeOne p{
+    font-size: larger;
+}
+.center-right{
+    background-image: url("../Project/img/Shackles.png");
+    background-size:100%;
+    width: auto;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 12%;
+    text-align: center;
+}
+.center-right p{
+    font-size: larger;
+}
+.footer{
+    padding: 400px;
+    background-color:lightsteelblue;
+}
+.hr{
+    padding-right: 280px;
+    margin-top: -400px;
+    margin-left: -5px;
+}
+.share{
+    font-size: small;
+    font-weight: bold;
+}
+.sm a{
+    text-decoration: none;
+    color:blue;
+}
+.follow{
+    text-align:start;
+    margin-top: 80px;
+}
+.link{
+    margin-top: 40px;
+    margin-left: -90px;
+}
 /* About page css */
 .about{
     text-align: center;
@@ -64,6 +115,7 @@ body{
 .photographer{
 display: flex;
 margin-top: 50px;
+margin-bottom: 10px;
 }
 .photographer p{
     text-align: justify;
@@ -162,6 +214,17 @@ margin-top: 50px;
     padding:10px;
     background-color: lightgray;
 }
+.ptc{
+    padding-top: 50px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+.ctimg{
+    padding-top: 30px;
+    text-align: center;
+}
+
 
 /* Contact page css*/
 .contact{
